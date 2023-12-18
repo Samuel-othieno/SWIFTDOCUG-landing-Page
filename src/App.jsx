@@ -15,7 +15,7 @@ function App() {
        <HeroSection/>
        <Blogs/>
        <Teams/>
-       {/* <Contact/> */}
+       <Contact/>
        <Newsletter/>
     </MantineProvider>
   )
