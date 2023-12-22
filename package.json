@@ -13,7 +13,10 @@
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
     "@mantine/core": "^7.3.2",
+    "@mantine/form": "^7.3.2",
     "@mantine/hooks": "^7.3.2",
+    "@tabler/icons": "^2.44.0",
+    "@tabler/icons-react": "^2.44.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^6.1.1"
