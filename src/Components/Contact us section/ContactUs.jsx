@@ -12,6 +12,7 @@ import {
   import { IconBrandTwitter, IconBrandYoutube, IconBrandInstagram } from '@tabler/icons-react';
   import { ContactIconsList } from './ContactIcons';
   import classes from './ContactUs.module.css';
+import { ButtonProgress } from '../Buttons/ButtonProgress';
   
   const social = [IconBrandTwitter, IconBrandYoutube, IconBrandInstagram];
   
@@ -44,21 +45,21 @@ import {
             />
             <TextInput
               label="Name"
-              placeholder="John Doe"
+              placeholder="Brenadh Namubali"
               mt="md"
               classNames={{ input: classes.input, label: classes.inputLabel }}
             />
             <Textarea
               required
               label="Your message"
-              placeholder="I want to order your goods"
+              placeholder="I want to join the waitlist"
               minRows={4}
               mt="md"
               classNames={{ input: classes.input, label: classes.inputLabel }}
             />
   
             <Group justify="flex-end" mt="md">
-              <Button className={classes.control}>Send message</Button>
+              <ButtonProgress/>
             </Group>
           </div>
         </SimpleGrid>

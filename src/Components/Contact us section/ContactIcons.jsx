@@ -28,10 +28,10 @@ ContactIcon.propTypes = {
 };
 
 const MOCKDATA = [
-    { title: 'Email', description: 'hello@mantine.dev', icon: IconAt },
-    { title: 'Phone', description: '+49 (800) 335 35 35', icon: IconPhone },
-    { title: 'Address', description: '844 Morris Park avenue', icon: IconMapPin },
-    { title: 'Working hours', description: '8 a.m. – 11 p.m.', icon: IconSun },
+    { title: 'Email', description: 'swiftdoc@gmail.com', icon: IconAt },
+    { title: 'Phone', description: '+256781202892', icon: IconPhone },
+    { title: 'Address', description: 'Kampala, Uganda', icon: IconMapPin },
+    { title: 'Working hours', description: '6 a.m. – 11 p.m.', icon: IconSun },
 ];
 
 export function ContactIconsList() {

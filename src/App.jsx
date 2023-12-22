@@ -16,8 +16,8 @@ function App() {
        <HeroSection/>
        <FeaturesCards/>
        <Teams/>
-       <FaqWithBg/>
        <ContactUs/>
+       <FaqWithBg/>
     </MantineProvider>
   )
 }
