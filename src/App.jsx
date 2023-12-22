@@ -7,17 +7,21 @@ import Teams from './Components/Teams/Teamsection';
 import { FeaturesCards } from './Components/Features section/FeaturesCards';
 import { FaqWithBg } from './Components/Frequently asked questions/FaqWithBg';
 import { ContactUs } from './Components/Contact us section/ContactUs';
+import { FooterSimple } from './Components/Footers/FooterSimple';
+import Testimonies from './Components/Comments/Testimonies';
 
 
 function App() {
   return (
-    <MantineProvider>
+    <MantineProvider >
        <Nav/>
        <HeroSection/>
        <FeaturesCards/>
        <Teams/>
+       <Testimonies/>
        <ContactUs/>
        <FaqWithBg/>
+       <FooterSimple/>
     </MantineProvider>
   )
 }
