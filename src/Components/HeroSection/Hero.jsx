@@ -1,9 +1,9 @@
 
 const links = [
     { name: 'Book Appointment', href: '#' },
-    { name: 'Testimonies', href: '#' },
+    { name: 'Testimonies', href: '#testimonies' },
     { name: 'Our values', href: '#' },
-    { name: 'Meet our leadership', href: '#' },
+    { name: 'Meet our leadership', href: '#OurLearders' },
   ]
   const stats = [
     { name: 'Coming soon', value: '2024' },
@@ -15,11 +15,11 @@ const links = [
   export default function HeroSection() {
     return (
       <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-        {/* <img
+        <img
           src="https://media.istockphoto.com/id/1162117373/photo/sending-some-updated-notes-to-the-doctor.webp?b=1&s=170667a&w=0&k=20&c=02H6Wgnw206uUsqvfpR-ld_z_S2SUNu764CvpovYU48="
           alt=""
           className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
-        /> */}
+        />
         <div
           className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
           aria-hidden="true"
@@ -46,7 +46,7 @@ const links = [
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Redefining healthcare on your terms.</h2>
+            <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Step into a realm of convenience, expertise, and personalized care</h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
             We understand the importance of your time and well-being. With SwiftDoc, quality healthcare is at your fingertips giving you the freedom to prioritize your health without compromising your schedule.
             </p>

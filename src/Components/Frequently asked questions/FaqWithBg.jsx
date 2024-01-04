@@ -7,7 +7,7 @@ const placeholder =
 
 export function FaqWithBg() {
   return (
-    <div className={classes.wrapper}>
+    <div className={classes.wrapper} id='FAQ'>
       <Container size="sm">
         <Title ta="center" className={classes.title}>
           Frequently Asked Questions
@@ -27,27 +27,27 @@ export function FaqWithBg() {
           }
         >
           <Accordion.Item className={classes.item} value="reset-password">
-            <Accordion.Control>How can I join the wait?</Accordion.Control>
+            <Accordion.Control>Is SwiftDoc secure</Accordion.Control>
             <Accordion.Panel>{placeholder}</Accordion.Panel>
           </Accordion.Item>
 
           <Accordion.Item className={classes.item} value="another-account">
-            <Accordion.Control>How can I create an account</Accordion.Control>
+            <Accordion.Control>How do I provide feedback or suggestions before the launch?</Accordion.Control>
             <Accordion.Panel>{placeholder}</Accordion.Panel>
           </Accordion.Item>
 
           <Accordion.Item className={classes.item} value="newsletter">
-            <Accordion.Control>Will subscription be free?</Accordion.Control>
+            <Accordion.Control>Can I preschedule appointments before the launch?</Accordion.Control>
             <Accordion.Panel>{placeholder}</Accordion.Panel>
           </Accordion.Item>
 
           <Accordion.Item className={classes.item} value="credit-card">
-            <Accordion.Control>Does the service cover the whole country?</Accordion.Control>
+            <Accordion.Control>Can I be A beta tester for SwiftDoc?</Accordion.Control>
             <Accordion.Panel>{placeholder}</Accordion.Panel>
           </Accordion.Item>
 
           <Accordion.Item className={classes.item} value="payment">
-            <Accordion.Control>Can I subscribe if i am not of legal adult age?</Accordion.Control>
+            <Accordion.Control>What devices can I use to access SwiftDoc services?</Accordion.Control>
             <Accordion.Panel>{placeholder}</Accordion.Panel>
           </Accordion.Item>
         </Accordion>

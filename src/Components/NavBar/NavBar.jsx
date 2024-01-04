@@ -4,11 +4,11 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'Dashboard', href: '#', current: true },
-  { name: 'What we do', href: '#', current: false },
+  { name: 'What we do', href: '#services', current: false },
   { name: 'Doctors', href: '#', current: false },
   { name: 'Patients', href: '#', current: false },
-  { name: 'FAQ', href: '#', current: false },
-  { name: 'Contacts', href: '#', current: false },
+  { name: 'FAQ', href: '#FAQ', current: false },
+  { name: 'Contacts', href: '#contacts', current: false },
 ]
 
 function classNames(...classes) {
@@ -17,7 +17,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg-gray-800 sticky">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -38,7 +38,7 @@ export default function Example() {
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                    src="public\logo.png"
                     alt="SwiftDoc.Ug"
                   />
                 </div>
