@@ -21,7 +21,7 @@ const people = [
           <div className="max-w-[100%]">
             <h2 className="text-3xl font-bold tracking-tighter text-gray-900 sm:text-4xl text-center">Meet our leadership</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              SWIFTDOC.Ug is led by a team of dedicated, passionate and profesional individuals
+              SWIFTDOC is led by a team of dedicated, passionate and profesional individuals <br /><br />
             </p>
           </div>
           <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
