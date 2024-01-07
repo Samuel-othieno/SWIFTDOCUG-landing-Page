@@ -17,7 +17,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-gray-800 sticky">
+    <Disclosure as="nav" className="bg-gray-800">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -38,7 +38,7 @@ export default function Example() {
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="h-8 w-auto"
-                    src="public\logo.png"
+                    src="https://photos.fife.usercontent.google.com/pw/ABLVV850a_oRcoQLYtJM6JD595tSqylCmQlVIzLpLhncXeILlhKADF3zG_yu=w164-h220-no?authuser=0"
                     alt="SwiftDoc.Ug"
                   />
                 </div>
