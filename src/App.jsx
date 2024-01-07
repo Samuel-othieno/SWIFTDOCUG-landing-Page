@@ -10,6 +10,7 @@ import { ContactUs } from './Components/Contact us section/ContactUs';
 import { FooterSimple } from './Components/Footers/FooterSimple';
 import Testimonies from './Components/Comments/Testimonies';
 import { FeaturesTitle } from './Components/Our Services/FeaturesTitle';
+import CallToAction from './Components/Call to action/CallToAction';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <MantineProvider >
        <Nav/>
        <HeroSection/>
+       <CallToAction/>
        <FeaturesCards/>
        <FeaturesTitle/>
        <Testimonies/>

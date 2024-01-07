@@ -55,11 +55,14 @@ export function FeaturesCards() {
     return (
         <Container size="lg" py="xl">
             <Group justify="center">
+                
                 <Badge variant="filled" size="lg">
                     What awaits you
                 </Badge>
             </Group>
-
+             <p className="mt-6 text-lg leading-8 text-black">
+            We understand the importance of your time and well-being. With SwiftDoc, quality healthcare is at your fingertips giving you the freedom to prioritize your health without compromising your schedule.
+            </p>
             <Title order={2} className={classes.title} ta="center" mt="sm">
                  Very Easy to use, Just Following 3 Steps
             </Title>
