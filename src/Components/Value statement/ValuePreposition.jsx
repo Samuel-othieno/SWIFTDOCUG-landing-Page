@@ -5,6 +5,7 @@ import {
   LockClosedIcon,
 } from "@heroicons/react/24/outline";
 
+
 const features = [
   {
     name: "Convenience and Accessibility",
@@ -49,7 +50,7 @@ export default function ValuePrep() {
                   {feature.name}
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-600">
-                  {feature.description}
+                  {/* {feature.description} */}
                 </dd>
               </div>
             ))}

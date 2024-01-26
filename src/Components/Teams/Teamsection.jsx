@@ -2,13 +2,13 @@ import { User1, User2 } from "./Profilles/UserCards";
 
 export default function Example() {
   return (
-    <div className="bg-blue-200 py-24 sm:py-32 w-[95%] m-auto rounded-xl">
+    <div className="bg-blue-300 py-24 sm:py-32 w-[95%] m-auto rounded-xl">
       <div className="mx-auto flex-col max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
         <div className="max-w-2xl">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Meet our leadership
+            Meet our founders
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          <p className="mt-6 text-[15px] leading-8 text-gray-600">
             We’re a dynamic group of individuals who are passionate about what
             we do and dedicated to delivering the best results for our clients
           </p>

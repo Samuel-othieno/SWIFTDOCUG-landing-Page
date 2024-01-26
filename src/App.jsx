@@ -9,8 +9,8 @@ import { FaqWithBg } from './Components/Frequently asked questions/FaqWithBg';
 import { ContactUs } from './Components/Contact us section/ContactUs';
 import { FooterSimple } from './Components/Footers/FooterSimple';
 import Testimonies from './Components/Comments/Testimonies';
-import { FeaturesTitle } from './Components/Our Services/FeaturesTitle';
 import CallToAction from './Components/Call to action/CallToAction';
+import { ServicesImg } from './Components/Our Services/FeatureVII';
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
        <HeroSection/>
        <CallToAction/>
        <FeaturesCards/>
-       <FeaturesTitle/>
+       <ServicesImg/>
        <Testimonies/>
        <Teams/>
        <ContactUs/>
