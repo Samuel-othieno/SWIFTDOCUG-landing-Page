@@ -13,11 +13,11 @@ const stats = [
 
 export default function HeroSection() {
   return (
-    <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+    <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32 h-[75vh]">
       <img
         src="https://media.istockphoto.com/id/1162117373/photo/sending-some-updated-notes-to-the-doctor.webp?b=1&s=170667a&w=0&k=20&c=02H6Wgnw206uUsqvfpR-ld_z_S2SUNu764CvpovYU48="
         alt=""
-        className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
+        className="absolute inset-0 -z-10 h-fit w-fit sm:h-full sm:w-full object-cover object-right sm:object-center"
       />
       <div
         className="hidden sm:absolute sm:-top-20 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
@@ -43,33 +43,24 @@ export default function HeroSection() {
       </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-4xl font-bold tracking-tight text-blue-100 sm:text-6xl">
+          <h2 className="text-2xl font-bold tracking-tight text-blue-100 sm:text-6xl">
             Step into a realm of convenience, expertise, and personalized care
           </h2>
 
-          <p className="mt-6 text-lg leading-8 text-white">
+          <p className="mt-6 text-sm sm:text-lg leading-8 text-white">
             Uganda’s health care system is ranked in 149th place out of 191
             countries in the world by WHO. There is roughly one doctor per 1,000
             people and its population spends 7.2% of its GDP on keeping healthy.
-            MoH research states that 70% of Ugandans who seek medical services
-            are dissatisfied due to long queues in the health facilities, poor
-            customer care management, and long distances between patients and
-            medical facilities. Help us change these stats!
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-          <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
+          <div className="grid grid-cols-2 sm:grid-cols-1 gap-x-8 gap-y-6 text-xs sm:text-base font-semibold leading-7 text-white sm:grid-cols-2 sm:flex lg:gap-x-10">
             {links.map((link) => (
-              <a key={link.name} href={link.href}>
-                {link.name} <span aria-hidden="true">&rarr;</span>
+              <a key={link.name} href={link.href} className="text-blue-400">
+                {link.name} <span aria-hidden="true"></span>
               </a>
             ))}
           </div>
-          <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
-            {stats.map((stat) => (
-              <div key={stat.name} className="flex flex-col-reverse"></div>
-            ))}
-          </dl>
         </div>
       </div>
     </div>
