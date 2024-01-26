@@ -31,7 +31,7 @@ export default function CallToAction() {
               >
                 Get Started
               </button>
-              <input type="button" id="button" value="Send" onclick="sayThanks()"></input>
+             
             </div>
           </div>
 

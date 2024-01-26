@@ -8,7 +8,7 @@ import classes from "./UserInfoIcons.module.css";
 export function User1() {
   return (
     <div>
-      <Group wrap="nowrap">
+      <Group wrap="nowrap" className="flex flex-col md:flex-row">
         <Avatar src="https://i.imgur.com/O1XsR5O.jpg" size={120} radius="md" />
         <div>
           <Text fz="xs" tt="uppercase" fw={700} c="dimmed">
@@ -53,7 +53,7 @@ export function User1() {
 export function User2() {
   return (
     <div>
-      <Group wrap="nowrap">
+      <Group wrap="nowrap" className="flex flex-col md:flex-row">
         <Avatar
           src="https://lh3.googleusercontent.com/pw/ABLVV87uNCtUdpX1CWP0xAMpWcvWnfQPuX89NonZywooWG4seC8yRPRYQvGCwphjPoalOwbI78B6y0hFFUxqE1f0UEOkwwipONCwWrnVC-zNTPVPYlyyrEw4kiflukFCnqC7sXKn49jKCUGFUlSyR9WV-j5H=w810-h1204-s-no-gm?authuser=0"
           size={120}
@@ -71,7 +71,7 @@ export function User2() {
           <Group wrap="nowrap" gap={10} mt={3}>
             <IconAt stroke={1.5} size="1rem" className={classes.icon} />
             <Text fz="xs" c="dimmed" component="a">
-              <a href="namubalibrendah@gmail.com">namubalibrendah@gmail.com</a>
+              <a href="namubalibrendah@gmail.com">brendahkizza1@gmail.com</a>
             </Text>
           </Group>
 
