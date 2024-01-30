@@ -1,7 +1,7 @@
 .footer {
-    margin-top: rem(120px);
+    margin-top: rem(100px);
     border-top: rem(1px) solid light-dark(var(--mantine-color-gray-9), var(--mantine-color-dark-5));
-    background-color: rgb(225, 242, 247);
+    background-color: rgb(2, 6, 61);
 
   }
   
@@ -12,13 +12,13 @@
     padding-top: var(--mantine-spacing-xl);
     padding-bottom: var(--mantine-spacing-xl);
   
-    @media (max-width: mantine-breakpoint-xs) {
+    @media (max-width: 680px) {
       flex-direction: column;
     }
   }
   
   .links {
-    @media (max-width: mantine-breakpoint-xs) {
+    @media (max-width: 680px) {
       margin-top: var(--mantine-spacing-md);
     }
   }

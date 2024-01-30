@@ -31,7 +31,7 @@ const MOCKDATA = [
     { title: 'Email', description: 'swiftdoc@gmail.com', icon: IconAt },
     { title: 'Phone', description: '+256781202892', icon: IconPhone },
     { title: 'Address', description: 'Kampala, Uganda', icon: IconMapPin },
-    { title: 'Working hours', description: '6 a.m. – 11 p.m.', icon: IconSun },
+    { title: 'Working hours', description: '24/7', icon: IconSun },
 ];
 
 export function ContactIconsList() {

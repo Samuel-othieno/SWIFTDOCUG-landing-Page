@@ -50,7 +50,8 @@ export default function HeroSection() {
           <p className="mt-6 text-sm sm:text-lg leading-8 text-white">
             Uganda’s health care system is ranked in 149th place out of 191
             countries in the world by WHO. There is roughly one doctor per 1,000
-            people and its population spends 7.2% of its GDP on keeping healthy.
+            people and its population spends 7.2% of its GDP on keeping healthy. 
+            Help us change these statistics.
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
