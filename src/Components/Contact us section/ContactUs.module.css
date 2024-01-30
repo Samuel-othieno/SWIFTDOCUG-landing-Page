@@ -1,11 +1,14 @@
 .wrapper {
+  background-color: aqua;
+  max-width: 95%;
+  margin: auto;
   min-height: rem(400px);
   background-image: linear-gradient(-60deg,
       var(--mantine-color-white) 0%,
       var(--mantine-color-white) 0%,
     );
   border-radius: var(--mantine-radius-md);
-  padding: calc(var(--mantine-spacing-xl) * 2.5);
+  padding: calc(var(--mantine-spacing-xl) * 1.5);
 
   @media screen  and (max-width : 48em) {
     padding: calc(var(--mantine-spacing-xl) * 0.8);

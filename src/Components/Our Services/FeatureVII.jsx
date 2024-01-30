@@ -2,9 +2,6 @@ import { Image, Accordion, Grid, Container, Title } from '@mantine/core';
 // import image from './image.svg';
 import classes from './FaqWithImage.module.css';
 
-const placeholder =
-  'It can’t help but hear a pin drop from over half a mile away, so it lives deep in the mountains where there aren’t many people or Pokémon.';
-
 export function ServicesImg() {
   return (
     <div className={classes.wrapper}>

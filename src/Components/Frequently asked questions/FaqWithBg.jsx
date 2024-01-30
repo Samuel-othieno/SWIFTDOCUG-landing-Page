@@ -38,26 +38,14 @@ export function FaqWithBg() {
             </Accordion.Panel>
           </Accordion.Item>
 
-          <Accordion.Item className={classes.item} value="another-account">
-            <Accordion.Control>
-              How do I provide feedback or suggestions before the launch?
-            </Accordion.Control>
-            <Accordion.Panel>
-              Currently, pre-scheduling is not available. We’ll announce when
-              this feature becomes accessible. Join our waitlist and stay tuned
-              for updates!
-            </Accordion.Panel>
-          </Accordion.Item>
-
           <Accordion.Item className={classes.item} value="newsletter">
             <Accordion.Control>
               Can I preschedule appointments before the launch?
             </Accordion.Control>
             <Accordion.Panel>
-              Yes, SwiftDoc accepts insurance payments. You can provide your
-              insurance details during the consultation, and we’ll work with
-              your provider for direct billing. Check with your insurance
-              company for telemedicine coverage and reimbursement details.
+            Currently, pre-scheduling is not available. We’ll announce when
+              this feature becomes accessible. Join our waitlist and stay tuned
+              for updates!
             </Accordion.Panel>
           </Accordion.Item>
 
@@ -79,12 +67,22 @@ export function FaqWithBg() {
               What devices can I use to access SwiftDoc services?
             </Accordion.Control>
             <Accordion.Panel>
+             
+            </Accordion.Panel>
+          </Accordion.Item>
+
+          <Accordion.Item className={classes.item} value="another-account">
+            <Accordion.Control>
+              How do I provide feedback or suggestions before the launch?
+            </Accordion.Control>
+            <Accordion.Panel>
               We value your input! Feel free to share your feedback or
               suggestions by contacting our support team at
               support@swift-doc.com. We appreciate your contribution to making
               SwiftDoc better.
             </Accordion.Panel>
           </Accordion.Item>
+
         </Accordion>
       </Container>
     </div>

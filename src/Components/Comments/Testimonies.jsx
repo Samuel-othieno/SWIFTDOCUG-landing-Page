@@ -60,33 +60,33 @@ export default function Testimonies() {
     const icon = <IconQuote />;
 
     return (
-        <div className="lg:grid lg:grid-cols-2 sm:grid-cols-1 lg:max-w-[95%] sm:">
-            <div className="bg-white py-24 sm:py-32 w-fit" id="testimonies">
+        <div className="m-auto rounded-xl bg-orange-200 lg:grid lg:grid-cols-2 sm:grid-cols-1 max-w-[95%]">
+            <div className="py-[2rem] sm:py-[1.5rem] w-fit" id="testimonies">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="mx-auto max-w-2xl lg:mx-0">
                         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                             Don't believe us, believe them
                         </h2>
                     </div>
-                    <div className="mx-auto mt-10 max-w-2xl  gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+                    <div className="mx-auto mt-1 max-w-2xl  gap-x-4 gap-y-2 pt-1 sm:mt-6 sm:pt-1 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                         {posts.map((post) => (
                             <Blockquote
                                 radius="xl"
                                 iconSize={60}
-                                color="blue"
+                                color="pink"
                                 icon={icon}
-                                mt="xl"
+                                mt="md"
                             >
                                 <article
                                     key={post.id}
                                     className="flex max-w-xl flex-col items-start justify-between"
                                 >
                                     <div className="group relative">
-                                        <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
+                                        <p className="mt-1 line-clamp-5 text-sm leading-6 text-blue-900">
                                             {post.description}
                                         </p>
                                     </div>
-                                    <div className="relative mt-8 flex items-center gap-x-4">
+                                    <div className="relative mt-4 flex items-center gap-x-4">
                                         <div className="text-sm leading-6">
                                             <p className="font-semibold text-gray-900">
                                                 <span className="absolute inset-0" />

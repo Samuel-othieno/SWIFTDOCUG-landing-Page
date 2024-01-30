@@ -2,7 +2,7 @@
     font-size: rem(34px);
     font-weight: 900;
   
-    @media (max-width: mantine-breakpoint-sm) {
+    @media (max-width: 768px) {
       font-size: rem(24px);
     }
   }
@@ -25,6 +25,8 @@
   
   .card {
     border: rem(1px) solid light-dark(var(--mantine-color-gray-1), var(--mantine-color-dark-5));
+    background-color: rgb(192, 235, 252);
+    color: Blue;
   }
   
   .cardTitle {

@@ -78,7 +78,7 @@ export default function Example() {
                       <span className="sr-only">Open user menu</span>
                       <img
                         className="h-8 w-8 rounded-full"
-                        src="https://lh5.googleusercontent.com/p/AF1QipNq2k01p3PF72KlTJlZN5kDSs7UzmlNHnC_I4cH=w160-h350-k-no"
+                        src=""
                         alt=""
                       />
                     </Menu.Button>

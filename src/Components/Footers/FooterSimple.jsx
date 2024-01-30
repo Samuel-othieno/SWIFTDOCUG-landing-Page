@@ -24,7 +24,7 @@ export function FooterSimple() {
   return (
     <div className={classes.footer}>
       <Container className={classes.inner}>
-        <h1>SWIFTDOC</h1>
+        <h1 className='text-blue-200 font-black text-xl'>SwiftDocUg</h1>
         <Group className={classes.links}>{items}</Group>
       </Container>
     </div>

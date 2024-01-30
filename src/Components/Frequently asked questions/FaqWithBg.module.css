@@ -1,5 +1,5 @@
 .wrapper {
-  padding-top: calc(var(--mantine-spacing-xl) * 1);
+  padding-top: calc(var(--mantine-spacing-sm) * 1);
   min-height: rem(820px);
   background-image: radial-gradient(var(--mantine-color-white) 0%,
       var(--mantine-color-white) 0%);
@@ -7,7 +7,7 @@
   background-position: top left;
   position: relative;
   color: var(--mantine-color-black);
-  margin-bottom: calc(var(--mantine-spacing-xl) * 1);
+  margin-bottom: calc(var(--mantine-spacing-sm) * 1);
 }
 
 .title {

@@ -1,8 +1,5 @@
-import {Avatar, Text, Group } from "@mantine/core";
-import {
-  IconPhoneCall,
-  IconAt,
-} from "@tabler/icons-react";
+import { Avatar, Text, Group } from "@mantine/core";
+import { IconBrandLinkedin, IconAt } from "@tabler/icons-react";
 import classes from "./UserInfoIcons.module.css";
 
 export function User1() {
@@ -22,26 +19,32 @@ export function User1() {
           <Group wrap="nowrap" gap={10} mt={3}>
             <IconAt stroke={1.5} size="1rem" className={classes.icon} />
             <Text fz="xs" c="dimmed">
-            <a href="x.com">hellennagawa@gmail.com</a>
-              
+              <a href="x.com">hellennagawa@gmail.com</a>
             </Text>
           </Group>
 
           <Group wrap="nowrap" gap={10} mt={5}>
-            <IconPhoneCall stroke={1.5} size="1rem" className={classes.icon} />
+            <IconBrandLinkedin
+              stroke={1.5}
+              size="1.2rem"
+              className={classes.icon}
+            />
             <Text fz="xs" c="dimmed">
-              +256 (763) 520984
+              <a href="https://www.linkedin.com/in/hellen-teri-nagawa-09ab06241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
             </Text>
           </Group>
 
           <Group wrap="nowrap" gap={10} mt={5}>
-            <Text fz="xs" c="dimmed">
-              Hellen Teri Nagawa is a writer on Medium, a platform for online
-              publishing. She has written about how <br />
-              coding is changing her life and career, and has expressed interest
-              in learning more about programming. <br />
-              She has also commented on other writers’ stories and shared her
-              feedback.
+            <Text fz="xs">
+              Hellen Teri Nagawa holds a Bachelor's degree in Business
+              Adminstration from Makerer University. <br />
+              she has gained invaluable entrepreneurial knowledge from
+              particating in various Bootcmps such as <br />
+              the 2023 OVO susTech$Africa organized by Thomas Moore University
+              of applied Sciences in collabration <br />
+              with Makerere University. She is dedicated to creating the
+              sustainable change she wants to see Uganda's <br />
+              Healthcare system.
             </Text>
           </Group>
         </div>
@@ -65,7 +68,7 @@ export function User2() {
           </Text>
 
           <Text fz="lg" fw={500} className={classes.name}>
-            Namubali Brendah
+            Brendah Namubali
           </Text>
 
           <Group wrap="nowrap" gap={10} mt={3}>
@@ -76,14 +79,18 @@ export function User2() {
           </Group>
 
           <Group wrap="nowrap" gap={10} mt={5}>
-            <IconPhoneCall stroke={1.5} size="1rem" className={classes.icon} />
+            <IconBrandLinkedin
+              stroke={1.5}
+              size="1rem"
+              className={classes.icon}
+            />
             <Text fz="xs" c="dimmed">
-              +256 (781) 202892
+             <a href="https://www.linkedin.com/in/brendah-namubali-b227b915b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LinkedIn</a>
             </Text>
           </Group>
 
           <Group wrap="nowrap" gap={10} mt={5}>
-            <Text fz="xs" c="dimmed">
+            <Text fz="xs">
               Brendah Namubali is a passionate entrepreneur with a vision for
               accessible and innovative healthcare. <br /> Armed with a
               Bachelor's degree in Business Administration and currently

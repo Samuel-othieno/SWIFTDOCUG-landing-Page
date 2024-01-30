@@ -39,6 +39,7 @@ import { ButtonProgress } from '../Buttons/ButtonProgress';
             <Group mt="xl">{icons}</Group>
           </div>
           <div className={classes.form}>
+            <h1 className='text-white font-semibold text-center'>Join our 100+ pals on our waitlist!</h1>
             <TextInput
               label="Email"
               placeholder="your@email.com"
@@ -47,7 +48,7 @@ import { ButtonProgress } from '../Buttons/ButtonProgress';
             />
             <TextInput
               label="Name"
-              placeholder="Brenadh Namubali"
+              placeholder="John Doe"
               mt="md"
               classNames={{ input: classes.input, label: classes.inputLabel }}
             />

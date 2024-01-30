@@ -53,14 +53,14 @@ export function FeaturesCards() {
     ));
 
     return (
-        <Container size="lg" py="xl">
+        <Container size="lg" py="sm" className='bg-indigo-200 max-w-[95%] rounded-xl mb-6' >
             <Group justify="center">
                 
                 <Badge variant="filled" size="lg">
                     What awaits you
                 </Badge>
             </Group>
-             <p className="mt-6 text-lg leading-8 text-black">
+             <p className="mt-4 text-sm sm:text-lg leading-8 text-black">
             We understand the importance of your time and well-being. With SwiftDoc, quality healthcare is at your fingertips giving you the freedom to prioritize your health without compromising your schedule.
             </p>
             <Title order={2} className={classes.title} ta="center" mt="sm">
