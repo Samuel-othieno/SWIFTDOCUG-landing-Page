@@ -1,5 +1,6 @@
 import {
- CheckCircleIcon, ClockIcon, UserGroupIcon } from "@heroicons/react/24/outline";
+ CheckCircleIcon, ClockIcon, UserGroupIcon } 
+ from "@heroicons/react/24/outline";
 
 
 const features = [
@@ -19,7 +20,7 @@ const features = [
     name: "Broad Access to Specialists",
     description:
       "Access a world of expertise. Connect with a diverse range of healthcare specialists without geographical constraints. Our platform brings top-notch medical professionals to you, wherever you are.",
-    icon:  UserGroupIcon,
+    icon: UserGroupIcon,
   },
 ];
 
