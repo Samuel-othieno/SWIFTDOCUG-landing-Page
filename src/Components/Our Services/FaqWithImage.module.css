@@ -1,7 +1,7 @@
 .wrapper {
     padding-top: calc(var(--mantine-spacing-sm) * 0);
     padding-bottom: calc(var(--mantine-spacing-sm) *1);
-    background-color: brown;
+    background-color: transparent;
     margin: auto;
     max-width: 95%;
     border-radius: 10px;

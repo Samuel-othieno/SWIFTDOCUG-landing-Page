@@ -54,7 +54,7 @@ export default function HeroSection() {
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-          <div className="grid grid-cols-2 sm:grid-cols-1 gap-x-8 gap-y-6 text-xs sm:text-base font-semibold leading-7 text-white sm:grid-cols-2 sm:flex lg:gap-x-10">
+          <div className="grid grid-cols-2 gap-x-8 gap-y-6 text-xs sm:text-base font-semibold leading-7 text-white sm:grid-cols-2 sm:flex lg:gap-x-10">
             {links.map((link) => (
               <a key={link.name} href={link.href} className="text-blue-400">
                 {link.name} <span aria-hidden="true"></span>

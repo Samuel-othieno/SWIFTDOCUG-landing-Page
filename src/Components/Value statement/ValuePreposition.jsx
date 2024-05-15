@@ -15,6 +15,7 @@ const features = [
     description:
       "Say goodbye to long wait times. Our platform is designed for efficiency, allowing you to schedule and attend appointments without the hassle, providing swift and seamless medical care.",
     icon: ClockIcon,
+  },
   
   {
     name: "Broad Access to Specialists",

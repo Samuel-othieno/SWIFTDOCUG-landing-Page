@@ -60,7 +60,7 @@ export default function Testimonies() {
     const icon = <IconQuote />;
 
     return (
-        <div className="m-auto rounded-xl bg-orange-200 lg:grid lg:grid-cols-2 sm:grid-cols-1 max-w-[95%]">
+        <div className="m-auto rounded-xl lg:grid lg:grid-cols-2 sm:grid-cols-1 max-w-[95%]">
             <div className="py-[2rem] sm:py-[1.5rem] w-fit" id="testimonies">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="mx-auto max-w-2xl lg:mx-0">
