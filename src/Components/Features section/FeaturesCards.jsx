@@ -53,7 +53,7 @@ export function FeaturesCards() {
     ));
 
     return (
-        <Container size="lg" py="sm" className='bg-indigo-200 max-w-[95%] rounded-xl mb-6' >
+        <Container size="lg" py="sm" className='bg-blue-00 max-w-[95%] rounded-xl mb-6' >
             <Group justify="center">
                 
                 <Badge variant="filled" size="lg">

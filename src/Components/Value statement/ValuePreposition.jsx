@@ -1,9 +1,6 @@
 import {
-  ArrowPathIcon,
-  CloudArrowUpIcon,
-  FingerPrintIcon,
-  LockClosedIcon,
-} from "@heroicons/react/24/outline";
+ CheckCircleIcon, ClockIcon, UserGroupIcon } 
+ from "@heroicons/react/24/outline";
 
 
 const features = [
@@ -11,19 +8,20 @@ const features = [
     name: "Convenience and Accessibility",
     description:
       "Experience healthcare on your terms. Connect with our expert medical professionals from the comfort of your home or office, making quality healthcare just a click away",
-    icon: CloudArrowUpIcon,
+    icon: CheckCircleIcon,
   },
   {
     name: "Time Efficiency",
     description:
       "Say goodbye to long wait times. Our platform is designed for efficiency, allowing you to schedule and attend appointments without the hassle, providing swift and seamless medical care.",
-    icon: LockClosedIcon,
+    icon: ClockIcon,
   },
+  
   {
     name: "Broad Access to Specialists",
     description:
       "Access a world of expertise. Connect with a diverse range of healthcare specialists without geographical constraints. Our platform brings top-notch medical professionals to you, wherever you are.",
-    icon: ArrowPathIcon,
+    icon: UserGroupIcon,
   },
 ];
 

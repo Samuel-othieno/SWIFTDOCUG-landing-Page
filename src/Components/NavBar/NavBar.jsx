@@ -78,9 +78,9 @@ export default function Example() {
                       <span className="sr-only">Open user menu</span>
                       <img
                         className="h-8 w-8 rounded-full"
-                        src=""
-                        alt=""
-                      />
+                         src="/assets/image2.jpg"
+                        alt="use avatar"
+                       />
                     </Menu.Button>
                   </div>
                   <Transition

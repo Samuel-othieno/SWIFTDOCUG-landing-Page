@@ -48,14 +48,13 @@ export default function HeroSection() {
           </h2>
 
           <p className="mt-6 text-sm sm:text-lg leading-8 text-white">
-            Uganda’s health care system is ranked in 149th place out of 191
-            countries in the world by WHO. There is roughly one doctor per 1,000
-            people and its population spends 7.2% of its GDP on keeping healthy. 
-            Help us change these statistics.
+           We understand the importance of your time and well-being. 
+          With SwiftDoc, quality healthcare is at your fingertips giving you the 
+          freedom to prioritize your health without compromising your schedule.
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-          <div className="grid grid-cols-2 sm:grid-cols-1 gap-x-8 gap-y-6 text-xs sm:text-base font-semibold leading-7 text-white sm:grid-cols-2 sm:flex lg:gap-x-10">
+          <div className="grid grid-cols-2 gap-x-8 gap-y-6 text-xs sm:text-base font-semibold leading-7 text-white sm:grid-cols-2 sm:flex lg:gap-x-10">
             {links.map((link) => (
               <a key={link.name} href={link.href} className="text-blue-400">
                 {link.name} <span aria-hidden="true"></span>
