@@ -2,7 +2,7 @@ import { User1, User2 } from "./Profilles/UserCards";
 
 export default function Example() {
   return (
-    <div className="bg-violet-200 py-[2.5rem] sm:py-[2rem] w-[95%] m-auto rounded-xl">
+    <div className="bg-blue-100 py-[2.5rem] sm:py-[2rem] w-[95%] m-auto rounded-xl">
       <div className="mx-auto flex-col max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
         <div className="max-w-2xl">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
