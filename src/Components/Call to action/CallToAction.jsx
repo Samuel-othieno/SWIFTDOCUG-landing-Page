@@ -1,4 +1,7 @@
+import React, { useState } from "react";
+
 export default function CallToAction() {
+
   return (
     <div className="relative top-[-3rem] isolate overflow-hidden bg-blue-800 py-16 sm:py-24 lg:py-10 md:w-[75%] w-[80%] m-auto z-50 rounded-xl">
       <div className="max-w-fit px-6 lg:px-8">
@@ -12,25 +15,9 @@ export default function CallToAction() {
               waitlist.
             </p>
             <div className="mt-3 md:mt-6 flex max-w-md gap-x-4">
-              <label htmlFor="email-address" className="sr-only">
-                Email address
-              </label>
-              <input
-                id="email-address"
-                name="email"
-                type="email"
-                autoComplete="email"
-                required
-                className="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-2 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 md:text-sm sm:leading-6 text-[0.7rem]"
-                placeholder="Enter your email"
-              />
-              <button
-                onclick="alert('bgbgbbgbb')"
-                type="submit"
-                className="flex-none h-auto rounded-md bg-blue-500 px-3.5 py-2.5 md:text-sm text-[0.8rem] font-semibold text-white hover:bg-blue-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-500"
-              >
-                Get Started
-              </button>
+             
+             //
+
              
             </div>
           </div>
@@ -47,5 +34,3 @@ export default function CallToAction() {
     </div>
   );
 }
-
-
