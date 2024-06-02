@@ -7,12 +7,10 @@ import UserloginForm from '../Backend/Login/UserloginForm.jsx';
 
 const navigation = [
   { name: 'Dashboard', href: '#', current: true },
-  { name: 'What we do', href: '#services', current: false },
   { name: 'Doctors', href: '#', current: false },
   { name: 'Patients', href: '#', current: false },
   { name: 'FAQ', href: '#FAQ', current: false },
   { name: 'Contacts', href: '#contacts', current: false },
-  { name: 'Your Profile', href: '#', current: false },
 ]
 
 function classNames(...classes) {
@@ -44,7 +42,7 @@ export default function Example() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                <Avatar src={null} alt="no image here"  color="rgba(0, 028, 255" variant="filled"/>
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb-qLVgqCV467p9jHbFuTv3d5v0Z9nB1vtvA&s" alt="" width="30" />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
@@ -80,7 +78,7 @@ export default function Example() {
                     <Menu.Button className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                       <span className="absolute -inset-1.5" />
                       <span className="sr-only">Open user menu</span>
-                      
+                      <Avatar src={null} alt="no image here"  color="rgba(0, 024, 255" variant="filled"/>                      
                     </Menu.Button>
                   </div>
                   <Transition
