@@ -1,10 +1,12 @@
-import { Fragment } from 'react'
+import React, { Fragment, useState } from 'react'
+import { Avatar } from '@mantine/core';
+import { IconStar } from '@tabler/icons-react';
 import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
+import UserloginForm from '../Backend/Login/UserloginForm.jsx';
 
 const navigation = [
   { name: 'Dashboard', href: '#', current: true },
-  { name: 'What we do', href: '#services', current: false },
   { name: 'Doctors', href: '#', current: false },
   { name: 'Patients', href: '#', current: false },
   { name: 'FAQ', href: '#FAQ', current: false },
@@ -12,11 +14,15 @@ const navigation = [
 ]
 
 function classNames(...classes) {
+
   return classes.filter(Boolean).join(' ')
 }
 
 export default function Example() {
+  const [isUserLoginFormVisible, setIsUserLoginFormVisible] = useState(false);
   return (
+    <div>
+    
     <Disclosure as="nav" className="bg-gray-800">
       {({ open }) => (
         <>
@@ -36,11 +42,7 @@ export default function Example() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <img
-                    className="h-8 w-auto"
-                    src="https://photos.fife.usercontent.google.com/pw/ABLVV850a_oRcoQLYtJM6JD595tSqylCmQlVIzLpLhncXeILlhKADF3zG_yu=w164-h220-no?authuser=0"
-                    alt="SwiftDoc.Ug"
-                  />
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb-qLVgqCV467p9jHbFuTv3d5v0Z9nB1vtvA&s" alt="" width="30" />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
@@ -76,11 +78,7 @@ export default function Example() {
                     <Menu.Button className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                       <span className="absolute -inset-1.5" />
                       <span className="sr-only">Open user menu</span>
-                      <img
-                        className="h-8 w-8 rounded-full"
-                         src="/assets/image2.jpg"
-                        alt="use avatar"
-                       />
+                      <Avatar src={null} alt="no image here"  color="rgba(0, 024, 255" variant="filled"/>                      
                     </Menu.Button>
                   </div>
                   <Transition
@@ -97,6 +95,7 @@ export default function Example() {
                         {({ active }) => (
                           <a
                             href="#"
+                            onClick={() => setIsUserLoginFormVisible(true)} 
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Your Profile
@@ -151,5 +150,7 @@ export default function Example() {
         </>
       )}
     </Disclosure>
+    {isUserLoginFormVisible && (<div className="fixed inset-0 flex justify-end z-50"><div className="w-64 p-4"></div> <UserloginForm /></div>)}
+    </div> 
   )
 }
