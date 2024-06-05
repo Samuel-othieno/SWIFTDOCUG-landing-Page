@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import UserSignupForm from "../Backend/Signup/UserSignupForm.jsx";
+
 
 export default function CallToAction() {
 
@@ -12,13 +14,10 @@ export default function CallToAction() {
             </h2>
             <p className="md:mt-4 mt-2 text-sm md:text-lg leading-5 md:leading-8 text-gray-300">
               Your spot in the future of healthcare? Secure it now. Join the
-              waitlist.
+              wait-list.
             </p>
             <div className="mt-3 md:mt-6 flex max-w-md gap-x-4">
-             
-             //
-
-             
+              <UserSignupForm/>             
             </div>
           </div>
 
