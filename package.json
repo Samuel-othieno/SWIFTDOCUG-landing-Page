@@ -17,8 +17,8 @@
     "@mantine/hooks": "^7.3.2",
     "@tabler/icons": "^2.44.0",
     "@tabler/icons-react": "^2.44.0",
-    "react": "^19.0.0-rc-6d3110b4d9-20240531",
-    "react-dom": "^19.0.0-rc-6d3110b4d9-20240531",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-social-icons": "^6.7.0",
     "styled-components": "^6.1.1"
   },
