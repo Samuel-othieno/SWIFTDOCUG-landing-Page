@@ -21,6 +21,8 @@ function UserloginForm() {
         "https://swiftdocug-backend.onrender.com/login",
         {
           method: "POST",
+          mode: "cors",
+          cache: "no-cache",
           headers: {
             "Content-Type": "application/json",
           },
@@ -90,7 +92,7 @@ function UserloginForm() {
         </form>
       </Drawer>
       <Tooltip label="Use your email or password to login">
-      <Button onClick={open}>Login</Button>
+      <Button onClick={open} variant="filled" color="red">Login</Button>
       </Tooltip>
     </>
   );
