@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useDisclosure } from "@mantine/hooks";
 import { Modal, Button } from "@mantine/core";
 
@@ -74,7 +74,7 @@ const [mediacations, setMedacations] = useState("");
   return (
     <>
        <Modal opened={opened} onClose={close} title="Authentication">
-       <form onSubmit={submiteSignupForm} class>
+       <form onSubmit={submiteSignupForm}>
 
         <input name="First Name" id="First Name" autoComplete="First Name" placeholder="First Name" value={firstName} onChange={(e)=>setFirstName(e.target.value)} required className="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-2 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 md:text-sm sm:leading-6 text-[0.7rem]"/>
 
@@ -125,4 +125,7 @@ const [mediacations, setMedacations] = useState("");
   )
 
 }
+
+
+
 export default UserSignupForm;

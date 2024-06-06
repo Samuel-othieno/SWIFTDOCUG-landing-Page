@@ -1,4 +1,3 @@
-import React from 'react'
 import '@mantine/core/styles.css';
 import { MantineProvider } from '@mantine/core';
 import Nav from './Components/NavBar/NavBar';
@@ -11,6 +10,7 @@ import { FooterSimple } from './Components/Footers/FooterSimple';
 import Testimonies from './Components/Comments/Testimonies';
 import CallToAction from './Components/Call to action/CallToAction';
 import { ServicesImg } from './Components/Our Services/FeatureVII';
+import FetchData from './Components/Backend/Signup/fetchData';
 
 
 
@@ -24,6 +24,7 @@ function App() {
        <ServicesImg/>
        <Testimonies/>
        <Teams/>
+       <FetchData/>
        <ContactUs/>
        <FaqWithBg/>
        <FooterSimple/>
